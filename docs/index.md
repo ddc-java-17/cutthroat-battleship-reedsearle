@@ -9,10 +9,19 @@ order: 0
 
 ## Summary
 
-Replace this paragraph with one or more paragraphs summarizing the purpose and operation of the Android app you propose to develop in this project.
-
+Have you ever thought Battleship was too friendly of a game?  Do you think the pig-pile is a great war-time tactic?  Cutthroat Battleship has both!  Cutthroat Battleship is a multi-player game app taking Battleship! to another level. In a game designed for 2-6 players, you may fight up to five other players!  Turn-based game-play allows each player to see the effect of the other players shots.  Just watch what happens when the first ship is located - ON ANY SCREEN!
 ## Intended users & user stories
 {: menu="Users" }
+
+Cutthroat Battleship appeals to two types of players; the player who enjoys the challenges of multi-player gaming, and the player who enjoys piling on to someone who is already being shot at.
+
+* Players who enjoy challenges.
+
+  > As someone who enjoys challenging multi-player games, I play this game because winning takes a keen understanding of game theory and not just a little luck.
+
+* Players who enjoy pig-piling.
+
+  > As someone who enjoys creating misery, I play this game because I can use all my shots to sink an entire ship in one turn!
 
 Write a bullet list here, including at least 2 different types of intended users. Make it reasonably specific; simply saying "Anyone who likes games" (for example) is not sufficiently specific.
 

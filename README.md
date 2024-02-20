@@ -1,4 +1,4 @@
-# Android project proposal starter
+# Cutthroat Battleship!
 
 ## Summary
 
