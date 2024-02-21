@@ -9,7 +9,8 @@ order: 0
 
 ## Summary
 
-Have you ever thought Battleship was too friendly of a game?  Do you think the pig-pile is a great war-time tactic?  Cutthroat Battleship has both!  Cutthroat Battleship is a multi-player game app taking Battleship! to another level. In a game designed for 2-6 players, you may fight up to five other players!  Turn-based game-play allows each player to see the effect of the other players shots.  Just watch what happens when the first ship is located - ON ANY SCREEN!
+Have you ever thought Battleship was too friendly of a game?  Do you think the pig-pile is a great war-time tactic?  Cutthroat Battleship has both!  Cutthroat Battleship is a multi-player game app taking Battleship! to another level. In a game designed for 2-6 players, you may fight up to five other players!  
+Turn-based game-play allows each player to see the effect of the other players shots.  Each player in an n-player game gets n shots to fire at whomever they choose. At the end of each players turn, the results of their shots are displayed on EVERYBODY'S screen. Just watch what happens when the first ship is located - ON ANY SCREEN!
 ## Intended users & user stories
 {: menu="Users" }
 
@@ -23,35 +24,29 @@ Cutthroat Battleship appeals to two types of players; the player who enjoys the 
 
   > As someone who enjoys creating misery, I play this game because I can use all my shots to sink an entire ship in one turn!
 
-Write a bullet list here, including at least 2 different types of intended users. Make it reasonably specific; simply saying "Anyone who likes games" (for example) is not sufficiently specific.
-
-For each type of intended user, include at least 1 _user story_. A user story is usually just 1 simple sentence (no more than 2 sentences), in the voice of the intended user, stating a specific task that the user performs using the app, and the benefit that will be obtained. The simplest user stories take the form 
-
-> As a <type of intended user (_who_)> I want to <use of specific feature or functionality (_what_)> so that <benefit (_why_).
-
-Please avoid writing too much for the user story. In particular, if the way the user story is written makes it difficult to see the _who_, _what_, and _why_, then you probably need to re-write it more directly. (On the other hand, a user story should not simply be a re-statement of the intended user description.)
-
-Here is one (silly) example of an intended user, along with a user story. Please note not only the conceptual structure, but the Markdown syntax used.
-
-* People who like to use randomness in their decision-making.
-
-    > As someone who enjoys randomness in my life, I use this app to flip a virtual coin or roll one or more virtual dice, so that I can base my decisions on randomness without having to carry coins or dice in my pockets.
 
 ## Functionality
 
-List (using a bullet list---or ordered list, if order is relevant) the key functional aspects that will be provided by the app---i.e., tell us what the user will be able to do using the app. This should not simply be a re-statement of the [summary](#summary), but should instead provide a more specific articulation of the functionality and user experience. 
+The player will be able to see all play screen with the results of everybody's shots.
+  * Swipe left/right to see any play screen
+  * Select location of shot placement
+  * See placement of their own ships
+  * See game statistics including current rank and number of games played
 
 ## Persistent data
 {: menu="Persistence" }
 
-Using a bullet list, list what content will be stored on the Android device. This should include any information that users of your app would expect to be maintained (i.e., without connection to a server) across multiple sessions of use.
-
-For example, this starter app already includes the necessary data model elements and data-access code to store & retrieve the following 
-
+The app will store the following peristent data
 * User
-    * Display name
-    * OAuth2.0 identifier
-    * Timestamp of first login to the app
+  * Display name
+  * OAuth2.0 identifier
+  * Timestamp of first login to the app
+* Game
+  * Number of games played
+  * Game difficulty (# of players)
+  * Current rank
+  
+
     
 ## Device/external services
 {: menu="Services" }
